@@ -10,10 +10,10 @@ terraform {
 
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "juliandawson"
+    organization = "carlislephotofestival"
 
     workspaces {
-      name = "juliandawson-github-io"
+      name = "carlislephotofestival-github-io"
     }
   }
 }
